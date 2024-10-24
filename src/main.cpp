@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
     }
 
     obj.NameServer(argv[1],v4,v6);
-    std::cout<<"IPv4 Address :"<<v4;
-    std::cout<<"Ipv6 Address : "<<v6;
+    std::cout<<"\nIPv4 Address :"<<v4;
+    std::cout<<"\nIpv6 Address : "<<v6;
 
     return 0;
 }
